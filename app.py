@@ -17,7 +17,7 @@ st.write("""
 #Initialize 'currentname' to trigger only when a new person is identified.
 currentname = "unknown"
 #Determine faces from encodings.pickle file model created from train_model.py
-encodingsP = "encodings_cnnlarge.pickle"
+encodingsP = "encodings.pickle"
 #use this xml file
 #https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml
 cascade = "haarcascade_frontalface_default.xml"

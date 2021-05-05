@@ -149,14 +149,12 @@ try:
 
     # do a bit of cleanup
     cv2.destroyAllWindows()
-    vs.stop()
-
-except NoneTypeError:
-    print("no image captured")
-    st.write("no image captured")
+    vs.stop()    
 
 
 except:
+    print("no image captured")
+    st.write("no image captured")
     print("something went wrong")
     st.write("something went wrong")
 
